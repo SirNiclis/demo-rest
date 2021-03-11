@@ -20,6 +20,7 @@ import co.edu.usbcali.demo.domain.Customer;
 @SpringBootTest
 @Rollback(false)
 @TestMethodOrder(OrderAnnotation.class)
+public
 class CustomerRepositoryTest {
 
 	private final static Logger log = LoggerFactory.getLogger(CustomerRepositoryTest.class);
